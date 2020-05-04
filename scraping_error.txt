@@ -1,0 +1,20 @@
+Tried the https://www.racing.com html,
+ but surprisingly it has a different html code for my browser and the python crawler.
+ Probably because of the javascript attached. and Now I'm clueless as its a dynamic webpage.
+ Unsure how to scrape it as when I compare the HTML for the same link opened by the browser and via python,
+ the content differs probably because of a lack of application of the js embedded along with
+
+Now for the other website,  https://www.racenet.com.au/horse-racing-results
+I have an option to select the date in the search bar to fetch me a race but I'm unsure on how to embed that in the python crawler link 
+as the browser link stays the same regardless of what date I search. Probably there is a usage of some ajax / dynamic js where it doesn't
+hyperlink for everyt search entry. So what we did for greyhound isn't possible. Over there, I could traverse each date, find a list of races
+and then for each race I would open the link and fetch the data and add it to the data frame. that seems hard over here as I don't 
+have aggregate data on the race names and venues + dates
+
+https://www.racing-bet-data.com/default.asp?fbclid=IwAR3bxTOl4twIW_hi4Qth8xYGi04RW5TyPcEn1lyxTj5W8tIjnXexvbNx33g
+this one requires a sign-in so I'm unsure how to go about it. On reading a little more about it, it seems that I need some advanceed membership 
+for the access
+
+https://racingaustralia.horse/FreeFields/Results.aspx?Key=2020Apr23%2CVIC%2CRacing.com%20Park&fbclid=IwAR1iPNBeTu9UARQGv8ZCQzfp9TNZFidK37M5lK-euMg5ay9GLfe-lt-Ty1Y
+the problem with this one is that it has data only upto the month before. So again, I'm clueless on how to proceed
+
